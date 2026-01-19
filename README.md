@@ -1,5 +1,3 @@
-## Hi there I'm k0x1a4 👋
-
 # 💫 About Me:
 Fullstack Developer from Germany
 
