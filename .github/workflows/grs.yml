@@ -17,7 +17,7 @@ jobs:
           card: stats
           options: username=k0x1a4&show_icons=true
           path: profile/stats.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
         run: |
