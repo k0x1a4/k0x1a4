@@ -18,7 +18,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=k0x1a4&show_icons=true&theme=dark
+          options: username=k0x1a4&show_icons=true&theme=github_dark&hide_border=true
           path: profile/stats.svg
           token: ${{ secrets.TOKEN }}
 
@@ -26,7 +26,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=k0x1a4&layout=compact&langs_count=6&theme=dark
+          options: username=k0x1a4&layout=donut&langs_count=6&theme=github_dark&hide_border=true
           path: profile/top-langs.svg
           token: ${{ secrets.TOKEN }}
 
